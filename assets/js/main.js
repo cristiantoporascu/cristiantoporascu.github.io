@@ -1,7 +1,7 @@
 $(document).ready( function() {
 	initWebPage();
 	initEvents();
-	initReplaceComponents();
+	// initReplaceComponents();
 });
 
 function initWebPage() {
