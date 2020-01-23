@@ -1,6 +1,7 @@
 $(document).ready( function() {
 	initWebPage();
 	initEvents();
+	initReplaceComponents();
 });
 
 function initWebPage() {
@@ -47,7 +48,7 @@ function initEvents() {
 function initReplaceComponents() {
 	var includes = $('[data-include-component]');
 	$.each(includes, function(){
-		var file = '../component/' + $(this).data('include-component') + '.html';
+		var file = '../components/' + $(this).data('include-component') + '.html';
 		$(this).load(file);
 	});
 }
