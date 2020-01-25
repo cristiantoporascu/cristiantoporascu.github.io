@@ -2,7 +2,7 @@ $(document).ready( function() {
 	initWebPage();
 	initEvents();
 	initSlideShow();
-	initReplaceComponents();
+	// initReplaceComponents();
 });
 
 function initWebPage() {
