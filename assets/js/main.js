@@ -1,7 +1,8 @@
 $(document).ready( function() {
 	initWebPage();
 	initEvents();
-	// initReplaceComponents();
+	initSlideShow();
+	initReplaceComponents();
 });
 
 function initWebPage() {
@@ -41,6 +42,21 @@ function initEvents() {
 	$('#continue-button').on( 'click', function() {
 		$('html, body').animate({
 			scrollTop: $(".about-selector").offset().top
+		});
+	});
+}
+
+function initSlideShow() {
+	var slides = $('[data-function="slideshow"]');
+	$.each(slides, function(){
+		$(this).slick({
+			dots: true,
+			infinite: true,
+			speed: 500,
+			fade: true,
+			autoplay:true,
+			autoplaySpeed: 3000,
+			cssEase: 'linear'
 		});
 	});
 }

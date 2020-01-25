@@ -4,9 +4,13 @@
 		<title>CIT - Cristian Ionut Toporascu</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<script src="../assets/js/jquery.min.js"></script>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css" integrity="sha256-etrwgFLGpqD4oNAFW08ZH9Bzif5ByXK2lXNHKy7LQGo=" crossorigin="anonymous" />
 		<link rel="stylesheet" href="../assets/css/main.css" />
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css" integrity="sha256-3h45mwconzsKjTUULjY+EoEkoRhXcOIU4l5YAw2tSOU=" crossorigin="anonymous" />
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.js" integrity="sha256-zUQGihTEkA4nkrgfbbAM1f3pxvnWiznBND+TuJoUv3M=" crossorigin="anonymous"></script>
 	</head>
 	<body>
 
@@ -21,16 +25,37 @@
 		<section id="main" >
 			<div class="inner">
 				<header class="major special">
-					<h1>Generic</h1>
+					<h1>Game engine</h1>
 					<ul class="actions">
-						<li><a href="portfolio/gameengine.html" class="button alt">Source code</a></li>
-						<li><a href="portfolio/gameengine.html" class="button alt">Watch video</a></li>
+						<li><a href="https://github.com/cristiantoporascu/FunEngine" class="button alt">Source code</a></li>
 					</ul>
 				</header>
-				<a href="#" class="image fit"><img src="../images/pic11.jpg" alt="" /></a>
-				<p>Vis accumsan feugiat adipiscing nisl amet adipiscing accumsan blandit accumsan sapien blandit ac amet faucibus aliquet placerat commodo. Interdum ante aliquet commodo accumsan vis phasellus adipiscing. Ornare a in lacinia. Vestibulum accumsan ac metus massa tempor. Accumsan in lacinia ornare massa amet. Ac interdum ac non praesent. Cubilia lacinia interdum massa faucibus blandit nullam. Accumsan phasellus nunc integer. Accumsan euismod nunc adipiscing lacinia erat ut sit. Arcu amet. Id massa aliquet arcu accumsan lorem amet accumsan.</p>
-				<p>Amet nibh adipiscing adipiscing. Commodo ante vis placerat interdum massa massa primis. Tempus condimentum tempus non ac varius cubilia adipiscing placerat lorem turpis at. Aliquet lorem porttitor interdum. Amet lacus. Aliquam lobortis faucibus blandit ac phasellus. In amet magna non interdum volutpat porttitor metus a ante ac neque. Nisi turpis. Commodo col. Interdum adipiscing mollis ut aliquam id ante adipiscing commodo integer arcu amet Ac interdum ac non praesent. Cubilia lacinia interdum massa faucibus blandit nullam. Accumsan phasellus nunc integer. Accumsan euismod nunc adipiscing lacinia erat ut sit. Arcu amet. Id massa aliquet arcu accumsan lorem amet accumsan commodo odio cubilia ac eu interdum placerat placerat arcu commodo lobortis adipiscing semper ornare pellentesque.</p>
-				<p>Amet nibh adipiscing adipiscing. Commodo ante vis placerat interdum massa massa primis. Tempus condimentum tempus non ac varius cubilia adipiscing placerat lorem turpis at. Aliquet lorem porttitor interdum. Amet lacus. Aliquam lobortis faucibus blandit ac phasellus. In amet magna non interdum volutpat porttitor metus a ante ac neque. Nisi turpis. Commodo col. Interdum adipiscing mollis ut aliquam id ante adipiscing commodo integer arcu amet blandit adipiscing arcu ante.</p>
+				<div data-function="slideshow">
+					<img src="../images/projects/gameengine/image0001.jpg" alt="main-gameengine" />
+					<img src="../images/projects/gameengine/image0002.jpg" alt="main-gameengine" />
+					<img src="../images/projects/gameengine/image0003.jpg" alt="main-gameengine" />
+					<img src="../images/projects/gameengine/image0004.jpg" alt="main-gameengine" />
+					<img src="../images/projects/gameengine/image0005.jpg" alt="main-gameengine" />
+				</div>
+				<p>
+					This project was developed for a coursework that was undergone during the 3rd of the 
+					Games Technology course at Coventry University, and it achieved a score of 91.4.
+				</p>
+				<p>
+					This game engine which I called FunEngine, developed using various APIs,
+					that assited during the development of some subsystems or complete frameworks
+					for subsystems like Audio System, Physiscs System and Networking System.
+				</p>
+				<p>
+					It was mainly built with compartmentalisation in mind using C++ and OOP. Makes use of various programming paterns
+					like singletone, observer and state patterns.
+					The Networking pemits the creation of a host and the connection of multiple clients, which transfer data using a
+					dedicated host as the mean of transfer.
+				</p>
+				<p>
+					The UI was built so that it supports multiple inputs from the user that allows the creation of various levels
+					and the exporting and importing as well as parsing of .XML files into game data and finally level data.
+				</p>
 			</div>
 		</section>
 
@@ -57,7 +82,6 @@
 		</section>
 
 		<!-- Scripts -->
-		<script src="../assets/js/jquery.min.js"></script>
 		<script src="../assets/js/skel.min.js"></script>
 		<script src="../assets/js/util.js"></script>
 		<script src="../assets/js/main.js"></script>

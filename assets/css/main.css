@@ -3365,7 +3365,7 @@
 		background-image: url("../../images/banner.jpg");
 		background-size: cover;
 		background-repeat: no-repeat;
-		background-position: 15% left;
+		background-position: center;
 		text-align: left;
 		position: relative;
 		z-index: 9999;
@@ -3959,3 +3959,14 @@
 			}
 
 		}
+
+
+
+	/* Slick Changes */
+	.slick-prev:before, .slick-next:before {
+		color: #478be5;
+	}
+
+	.slick-dots li button:before{
+		font-size: 13px;
+	}
