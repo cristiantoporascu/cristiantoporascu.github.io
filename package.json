@@ -1,0 +1,9 @@
+{
+  "name": "website-portfolio",
+  "version": "1.0.0",
+  "description": "A website that will contain all of the projects and achievements that have been aquired. It will be built in ReactJS.",
+  "main": "index.js",
+  "repository": "https://github.com/cristiantoporascu/cristiantoporascu.github.io.git",
+  "author": "Toporascu Cristian <toporascu.cristian@gmail.com>",
+  "license": "MIT"
+}
