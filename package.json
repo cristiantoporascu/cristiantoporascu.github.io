@@ -1,9 +1,22 @@
 {
-  "name": "website-portfolio",
+  "name": "cristiantoporascu.github.io",
   "version": "1.0.0",
-  "description": "A website that will contain all of the projects and achievements that have been aquired. It will be built in ReactJS.",
-  "main": "index.js",
-  "repository": "https://github.com/cristiantoporascu/cristiantoporascu.github.io.git",
-  "author": "Toporascu Cristian <toporascu.cristian@gmail.com>",
-  "license": "MIT"
+  "private": true,
+  "description": "cristiantoporascu.github.io",
+  "author": "Toporascu Cristian",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
+  },
+  "dependencies": {
+    "gatsby": "^2.26.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
 }
